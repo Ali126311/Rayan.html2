@@ -1,0 +1,65 @@
+.parent{
+    background-color: rgb(98, 165, 204);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    align-content: be;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.child1{
+    background-color: rgb(244, 17, 17);
+    width: 100px;
+    height: 100px;
+   
+    Flex-shrink:2;
+    order:6;
+
+}
+
+.child2{
+    background-color: rgb(127, 61, 202);
+    width: 100px;
+    height: 100px;
+   
+}
+
+.child3{
+    background-color: rgb(61, 202, 92);
+    width: 100px;
+    height: 100px;
+   
+}
+
+.child4{
+    background-color: rgb(219, 189, 232);
+    width: 100px;
+    height: 100px;
+   
+}
+.child1hover{
+    background-color: rgb(244, 17, 17);
+    width: 100px;
+    height: 100px;
+    
+    transform: scale(1.5);
+
+    color: rgb(3, 3, 3);
+}
+.parent:hover .child1hover{
+    transform: scale(1.5);
+    box-shadow: 0px 0px 10px 5px rgb(244, 17, 17);
+    color: rgb(3, 3, 3);
+}
+.class{
+    background-color: rgb(215, 70, 171);
+    width: 200px;
+    height: 200px;
+    color: rgb(11, 21, 21);
+   
+    Flex-shrink:2;
+    order:6;
+    border-radius: 5%;
+}

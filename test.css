@@ -1,0 +1,102 @@
+.per{
+    display:flex;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 20px;
+}
+    
+
+.d1{
+    width: 50%;
+}
+.imgdiv{
+    width: 50%;
+}
+
+.img{
+    width: 100%;
+  height: 500px;
+
+ 
+   
+ 
+}
+.b1{
+    border-radius: 10px;
+    color: rgb(2, 2, 2);
+    background-color: rgb(233, 225, 225);
+    border-style: double;
+
+}
+.b1:hover{
+    color: blue;
+    box-shadow: inset;
+}
+
+}
+.text{
+    color: blue;
+}
+
+.card1img{
+    width: 100%;
+    border-radius:5px;
+
+}
+.card1{
+    border: 2px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+padding: 50px 100px;
+background-color: rgb(247, 242, 275);
+
+}
+.button{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: rgb(10, 8, 8);
+    border-radius: 25px;
+    background-color: rgb(147, 197, 104);
+}
+
+
+.button:hover{
+    color: blue;
+    box-shadow: 2px;
+}
+
+.card{
+    margin: 10px;
+    background-color: rgb(241, 245, 245);
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 2px;
+    color: rgb(5, 26, 45);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/* media quary */
+@media screen and (max-width: 650px){
+    .per{
+        flex-direction: column;
+    }
+    .d1{
+    width: 100%;
+}
+.imgdiv{
+    width: 100%;
+}
+}
+
+@media screen and( max-width: 650px ) {
+    
+}

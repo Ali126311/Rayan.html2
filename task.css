@@ -1,0 +1,65 @@
+.parent{
+    background-image: url("images (5).jfif");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 80vh;
+   justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    .btn1{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
+.btn1:hover{
+    background-color: rgb(33, 177, 124);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 5px rgb(33, 177, 124);
+}
+.btn2{
+     background-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 5px;
+
+}
+.btn2:hover{
+    background-color: rgb(33, 177, 124);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 5px rgb(33, 177, 124);
+}
+
+.con{
+     display: flex;
+}
+
+.card{
+    background-color: rgb(246, 236, 244);
+    /* width: 200px; */
+    flex-grow: 1;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+   border-radius: 5px;
+   margin: 10px;
+
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

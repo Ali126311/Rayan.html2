@@ -1,0 +1,94 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position:relative ;
+    animation-name: ani1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite ;
+    animation-direction: alternate;
+    border-radius: 50px;
+
+}
+@keyframes ani1 {
+    from{
+      left: 0px;
+    
+    }
+    to{
+        left: 300px;
+    }
+    
+}
+
+.box2{
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    position: relative;
+    animation-name: ani2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 30px;
+}
+@keyframes ani2 {
+    0%{
+        left: 0px;
+        right: 0px;
+
+    }
+    25%{
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        left: 300px;
+        right: 300px;
+
+    }
+    75%{
+        left:;
+        right: 300px;
+    }
+    100%{
+        left: 0px;
+        right: 0px;
+    }
+}
+
+.pipe{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    border-radius: 80px;
+    position: relative;
+}
+
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 80px;
+    position: absolute;
+    animation-name: ani3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes identifier {
+    
+}
+
+
+
+
+
+
+
+
+
+
